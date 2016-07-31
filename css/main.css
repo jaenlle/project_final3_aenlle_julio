@@ -1,5 +1,6 @@
 /* Sections for easy search
-...
+max width containers
+header
 */
 
 /* Site colors
@@ -94,4 +95,26 @@ button:active {
 
 button:focus { /* Eliminates the blue "outline" that appears by browser default when clicking a button */
     outline: 0;
+}
+
+/* ------------------------------------------------ max width containers ---- */
+
+.content-container { /* main content container */
+    max-width: 1000px;
+}
+
+/* -------------------------------------------------------------- header ---- */
+
+
+/* ---------------------------------------------------------------- logo ---- */
+
+#logo {
+    background: #4f7161 url("../img/header_background.jpg") repeat;
+}
+
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 0;
 }
