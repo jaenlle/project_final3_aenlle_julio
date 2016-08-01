@@ -151,7 +151,6 @@ nav a {
     text-decoration: none;
     line-height: 60px;
     padding: 10px 20px;
-    font-family: 'Bitter', serif;
     font-size: 1.8em;
     color: #c81e21;
 }
@@ -186,7 +185,7 @@ footer {
     text-align: center;
 }
 
-footer p {
-    text-align: center;
-    color: white;
+.footer-container {
+    max-width: 750px;
+    margin: 0 auto;
 }
