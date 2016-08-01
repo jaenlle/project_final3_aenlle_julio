@@ -113,11 +113,11 @@ button:focus { /* Eliminates the blue "outline" that appears by browser default 
 
 /* ---------------------------------------------------------------- logo ---- */
 
-#logo {
+div#logo {
     background: #4f7161 url("../img/header_background.jpg") repeat;
 }
 
-#logo img {
+div#logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -185,7 +185,7 @@ footer {
     text-align: center;
 }
 
-.footer-container {
+div.footer-container {
     max-width: 750px;
     margin: 0 auto;
 }
@@ -204,12 +204,19 @@ footer ul {
     padding: 0 0;
 }
 
-footer a {
+footer li {
     display: block;
+}
+
+footer a {
     text-decoration: none;
     line-height: 60px;
-    padding: 10px 20px;
+    padding: 10px 0;
     color: white;
+}
+
+footer a:hover {
+    color: #66c999;
 }
 
 @media all and (min-width: 500px) {
@@ -226,4 +233,24 @@ footer a {
         width: calc(100% / 4);
     }
 
+}
+
+div.social-container {
+    max-width: 400px;
+    margin: 40px auto 15px;
+}
+
+div.social-container li {
+    display: inline;
+    margin: 0 40px;
+}
+
+img.socialfoot {
+    max-width: 35px;
+}
+
+@media all and (max-width: 550px) {
+    div.social-container li {
+        display: block;
+    }
 }
