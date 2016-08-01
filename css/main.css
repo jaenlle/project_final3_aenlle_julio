@@ -189,3 +189,41 @@ footer {
     max-width: 750px;
     margin: 0 auto;
 }
+
+footer img {
+    max-width: 120px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0 0;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 10px 20px;
+    color: white;
+}
+
+@media all and (min-width: 500px) {
+    footer li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+/* makes nav buttons space themselves out when window is at minimum width set */
+@media all and (min-width: 800px) {
+    footer li {
+        display: inline-block;
+        width: calc(100% / 4);
+    }
+
+}
