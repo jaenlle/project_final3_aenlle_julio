@@ -64,10 +64,6 @@ p {
     text-shadow: 1px 1px rgba(158, 158, 158, 0.36);
 }
 
-a {
-    margin-top: 20px;
-}
-
 button {
     display: block;
     color: white;
@@ -99,6 +95,15 @@ button:focus { /* Eliminates the blue "outline" that appears by browser default 
 
 /* ------------------------------------------------ max width containers ---- */
 
+.hf-container,
+.content-container {
+    margin: 0 auto;
+}
+
+.hf-container { /* header & footer container */
+    max-width: 1600px;
+}
+
 .content-container { /* main content container */
     max-width: 1000px;
 }
@@ -117,4 +122,71 @@ button:focus { /* Eliminates the blue "outline" that appears by browser default 
     margin-left: auto;
     margin-right: auto;
     padding: 8px 0;
+}
+
+/* makes nav buttons bunch up when window is at minimum width set */
+@media all and (min-width: 500px) {
+
+}
+
+/* makes nav buttons space themselves out when window is at minimum width set */
+@media all and (min-width: 800px) {
+    #logo {
+    }
+}
+
+/* ---------------------------------------------------------- navigation ---- */
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 0;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 10px 20px;
+    font-family: 'Bitter', serif;
+    font-size: 1.8em;
+    color: #c81e21;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #c81e21;
+}
+
+/* makes nav buttons bunch up when window is at minimum width set */
+@media all and (min-width: 500px) {
+    nav li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+/* makes nav buttons space themselves out when window is at minimum width set */
+@media all and (min-width: 800px) {
+    nav li {
+        display: inline-block;
+        width: calc(100% / 4);
+    }
+
+}
+
+/* ------------------------------------------------------ Footer ---- */
+
+footer {
+    background-color: #c81e21;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: white;
 }
