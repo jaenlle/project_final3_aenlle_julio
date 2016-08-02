@@ -3,6 +3,8 @@ max width containers
 header
 navigation
 footer
+homepage
+location
 */
 
 /* Site colors
@@ -64,7 +66,10 @@ p {
     font-size: 0.9em;
     line-height: 160%;
     letter-spacing: 1px;
+
+    /*
     text-shadow: 1px 1px rgba(158, 158, 158, 0.36);
+    */
 }
 
 a {
@@ -113,6 +118,13 @@ button:focus { /* Eliminates the blue "outline" that appears by browser default 
 
 .content-container { /* main content container */
     max-width: 1000px;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 1000px) {
+    .content-container {
+        padding: 0 10px;
+    }
 }
 
 /* -------------------------------------------------------------- header ---- */
@@ -288,4 +300,32 @@ h1#homeh1 {
 
 #homeh1 h2 {
     font-size: 40px;
+}
+
+
+/* ------------------------------------------------------ location ---- */
+
+section.location {
+    text-align: left;
+}
+
+section.location.left {
+    float: left;
+}
+
+section.location h2 {
+    margin-top: 0;
+}
+
+section.location img {
+    width: 45px;
+    margin: 0 10px;
+}
+
+section.location ul {
+    list-style: none;
+}
+
+section.location li {
+    display: inline;
 }
