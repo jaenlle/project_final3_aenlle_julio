@@ -106,7 +106,7 @@ button:focus { /* Eliminates the blue "outline" that appears by browser default 
     outline: 0;
 }
 
-/* ------------------------------------------------ max width containers ---- */
+/* ===================================================== max width containers */
 
 .hf-container,
 .nav-container,
@@ -133,7 +133,7 @@ button:focus { /* Eliminates the blue "outline" that appears by browser default 
     }
 }
 
-/* -------------------------------------------------------------- header ---- */
+/* =================================================================== header */
 
 div#logo {
     background: #4f7161 url("../img/header_background.jpg") repeat;
@@ -146,7 +146,7 @@ div#logo img {
     padding: 8px 0;
 }
 
-/* ---------------------------------------------------------- navigation ---- */
+/* =============================================================== navigation */
 
 nav {
     text-align: center;
@@ -188,7 +188,7 @@ nav a:hover {
 
 }
 
-/* -------------------------------------------------------------- footer ---- */
+/* =================================================================== footer */
 
 footer {
     background-color: #c81e21;
@@ -294,7 +294,7 @@ div.footcontact p.noline {
 
 }
 
-/* ------------------------------------------------------------ homepage ---- */
+/* ================================================================= homepage */
 
 div.content-container {
     text-align: center;
@@ -308,7 +308,7 @@ h1#homeh1 {
     font-size: 40px;
 }
 
-/* ---------------------------------------------------------- gift cards ---- */
+/* =============================================================== gift cards */
 
 div.content-container ul {
     list-style: none;
@@ -338,7 +338,62 @@ div.content-container a:hover {
     }
 }
 
-/* ------------------------------------------------------------ location ---- */
+/* -------------------------------------------------------------------- cards */
+
+div.card10,
+div.card25,
+div.card50,
+div.card100 {
+    height: 200px;
+    width: 300px;
+    margin: 50px auto 75px;
+    padding: 10px 25px;
+    background-color: #6b887a;
+    text-align: left;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+div.card10 h2,
+div.card25 h2,
+div.card50 h2,
+div.card100 h2 {
+    color: #c81e21;
+    text-align: right;
+    text-shadow: 2px 2px white;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    padding: 0;
+
+}
+
+div.card10 img,
+div.card25 img,
+div.card50 img,
+div.card100 img {
+    width: 65px;
+    float: left;
+}
+
+div.card10 {
+    background-image: url("/img/cards/card10.jpg");
+}
+
+div.card25 {
+    background-image: url("/img/cards/card25.jpg");
+}
+
+div.card50 {
+    background-image: url("/img/cards/card50.jpg");
+}
+
+div.card100 {
+    background-image: url("/img/cards/card100.jpg");
+}
+
+/* ================================================================= location */
 
 section.location {
     text-align: left;
