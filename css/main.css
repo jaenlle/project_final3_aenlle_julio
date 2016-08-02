@@ -116,6 +116,7 @@ button:focus { /* Eliminates the blue "outline" that appears by browser default 
 
 .hf-container { /* header & footer container */
     max-width: 1600px;
+    clear: both;
 }
 
 .nav-container,
@@ -335,7 +336,6 @@ div.content-container {
     }
 }
 
-/* makes nav buttons space themselves out when window is at minimum width set */
 @media all and (max-width: 800px) {
     #homecontent img {
         max-width: 350px;
@@ -350,16 +350,49 @@ div.content-container {
 
 /* ===================================================================== menu */
 
-.menu {
+article.menu {
     text-align: left;
+    margin: 40px 0 40px;
 }
 
-.menu img {
+article.menu img {
     height: 200px;
     width: 300px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     border: 4px solid #c81e21;
+    float: left;
+}
+
+section.menu-item {
+    height: 200px;
+    margin-top: 60px;
+    clear: both;
+}
+
+div.food-info {
+    float: left;
+    max-width: 500px;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+@media all and (max-width: 500px) {
+    div.food-info {
+        margin-left: 0;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+    article.menu {
+        clear: both;
+        padding-top: 40px;
+    }
+
+    div.food-info {
+        margin-left: 0;
+    }
 }
 
 /* =============================================================== gift cards */
