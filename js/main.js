@@ -11,7 +11,9 @@ $(document).ready(function () {
     homeh1.addEventListener('mouseenter', addh2);
 
     // Plugin # 1:
+    $("#container").sliphover({
 
+    });
 
 
     // Plugin # 2:
