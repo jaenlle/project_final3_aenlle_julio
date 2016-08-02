@@ -340,10 +340,10 @@ div.content-container a:hover {
 
 /* -------------------------------------------------------------------- cards */
 
-div.card10,
-div.card25,
-div.card50,
-div.card100 {
+div#card10,
+div#card25,
+div#card50,
+div#card100 {
     height: 200px;
     width: 300px;
     margin: 50px auto 75px;
@@ -355,10 +355,10 @@ div.card100 {
     box-shadow: 6px 6px rgba(0, 0, 0, 0.2);
 }
 
-div.card10 h2,
-div.card25 h2,
-div.card50 h2,
-div.card100 h2 {
+div#card10 h2,
+div#card25 h2,
+div#card50 h2,
+div#card100 h2 {
     color: #c81e21;
     text-align: right;
     text-shadow: 2px 2px white;
@@ -369,27 +369,27 @@ div.card100 h2 {
 
 }
 
-div.card10 img,
-div.card25 img,
-div.card50 img,
-div.card100 img {
+div#card10 img,
+div#card25 img,
+div#card50 img,
+div#card100 img {
     width: 65px;
     float: left;
 }
 
-div.card10 {
+div#card10 {
     background-image: url("/img/cards/card10.jpg");
 }
 
-div.card25 {
+div#card25 {
     background-image: url("/img/cards/card25.jpg");
 }
 
-div.card50 {
+div#card50 {
     background-image: url("/img/cards/card50.jpg");
 }
 
-div.card100 {
+div#card100 {
     background-image: url("/img/cards/card100.jpg");
 }
 
