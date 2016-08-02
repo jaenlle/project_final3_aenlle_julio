@@ -4,6 +4,7 @@ header
 navigation
 footer
 homepage
+gift cards
 location
 */
 
@@ -187,7 +188,7 @@ nav a:hover {
 
 }
 
-/* ------------------------------------------------------ footer ---- */
+/* -------------------------------------------------------------- footer ---- */
 
 footer {
     background-color: #c81e21;
@@ -293,7 +294,7 @@ div.footcontact p.noline {
 
 }
 
-/* ------------------------------------------------------ homepage ---- */
+/* ------------------------------------------------------------ homepage ---- */
 
 div.content-container {
     text-align: center;
@@ -307,8 +308,37 @@ h1#homeh1 {
     font-size: 40px;
 }
 
+/* ---------------------------------------------------------- gift cards ---- */
 
-/* ------------------------------------------------------ location ---- */
+div.content-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+div.content-container li {
+    display: inline;
+    text-size: 2em;
+    margin: 0 20px;
+}
+
+div.content-container a {
+    text-decoration: none;
+    color: #c81e21;
+    font-size: 1.8em;
+}
+
+div.content-container a:hover {
+    text-decoration: none;
+    color: #66c999;
+}
+
+@media all and (max-width: 500px) {
+    div.content-container a {
+        font-size: 1.2em;
+    }
+}
+
+/* ------------------------------------------------------------ location ---- */
 
 section.location {
     text-align: left;
