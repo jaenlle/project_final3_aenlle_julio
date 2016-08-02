@@ -61,7 +61,12 @@ p {
     text-align: justify;
     font-size: 0.9em;
     line-height: 160%;
+    letter-spacing: 1px;
     text-shadow: 1px 1px rgba(158, 158, 158, 0.36);
+}
+
+a {
+    letter-spacing: 1.5px;
 }
 
 button {
@@ -187,7 +192,9 @@ footer {
 
 div.footer-container {
     max-width: 750px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
 }
 
 footer img {
@@ -253,4 +260,25 @@ img.socialfoot {
     div.social-container li {
         display: block;
     }
+}
+
+div.footcontact {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+div.footcontact p {
+    font-family: 'Bitter', serif;
+    border-left: 2px solid white;
+}
+
+div.footcontact p.noline {
+    border-left: none;
+}
+
+@media all and (max-width: 800px) {
+    div.footcontact p {
+        border-left: none;
+    }
+
 }
