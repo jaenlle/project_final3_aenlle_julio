@@ -129,17 +129,6 @@ div#logo img {
     padding: 8px 0;
 }
 
-/* makes nav buttons bunch up when window is at minimum width set */
-@media all and (min-width: 500px) {
-
-}
-
-/* makes nav buttons space themselves out when window is at minimum width set */
-@media all and (min-width: 800px) {
-    #logo {
-    }
-}
-
 /* ---------------------------------------------------------- navigation ---- */
 
 nav {
@@ -256,7 +245,7 @@ img.socialfoot {
     max-width: 35px;
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 500px) {
     div.social-container li {
         display: block;
     }
