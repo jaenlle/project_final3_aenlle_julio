@@ -12,10 +12,10 @@ $(document).ready(function () {
 
     // Plugin # 1: The plugin's name is SlipHover. It creates a hover overlay that is dependent on the direction in which the mouse enters the image area.
     $('#homecontent').sliphover({
-        backgroundColor: 'rgba(200,30,33,.7)',
-
+        backgroundColor: 'rgba(200,30,33,.7)'
     });
 
 
-    // Plugin # 2:
+    // Plugin # 2: This plugin is a basic pop-up overlay. It creates a pop-up modal window that tells potential gift card purchasers that they're in for a nice surpise if they complete their transactions!
+    $('#deal').popup();
 });

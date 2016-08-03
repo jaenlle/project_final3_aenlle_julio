@@ -378,6 +378,11 @@ div.food-info {
 }
 
 @media all and (max-width: 500px) {
+    article.menu {
+        clear: both;
+        padding-top: 40px;
+    }
+
     div.food-info {
         margin-left: 0;
     }
@@ -465,28 +470,31 @@ div#card100 img {
 }
 
 div#card10 {
-    background-image: url("/img/cards/card10.jpg");
+    background-image: url("http://julioaenlle.net/project_final3_aenlle_julio/img/cards/card10.jpg");
 }
 
 div#card25 {
-    background-image: url("/img/cards/card25.jpg");
+    background-image: url("http://julioaenlle.net/project_final3_aenlle_julio/img/cards/card25.jpg");
 }
 
 div#card50 {
-    background-image: url("/img/cards/card50.jpg");
+    background-image: url("http://julioaenlle.net/project_final3_aenlle_julio/img/cards/card50.jpg");
 }
 
 div#card100 {
-    background-image: url("/img/cards/card100.jpg");
+    background-image: url("http://julioaenlle.net/project_final3_aenlle_julio/img/cards/card100.jpg");
 }
 
 /* ================================================================= location */
 
-section.location {
-    text-align: left;
+article.locationmain {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-section.location.left {
+section.location {
+    width: 233px;
+    text-align: left;
     float: left;
 }
 
@@ -505,4 +513,29 @@ section.location ul {
 
 section.location li {
     display: inline;
+}
+
+.locationicons {
+    clear: both;
+}
+
+.locationicons img {
+    width: 45px;
+    margin: 40px 10px;
+    clear: both;
+}
+
+@media all and (max-width: 500px) {
+    article.locationmain {
+        margin: 0 60px;
+    }
+
+    section.location li {
+        display: inline;
+    }
+
+    .locationicons img {
+        width: 25px;
+    }
+
 }
