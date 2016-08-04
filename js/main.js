@@ -12,12 +12,17 @@ $(document).ready(function () {
 
     homeh1.addEventListener('mouseenter', addh2);
 
+    // Plugin # 2:
+
     // Plugin # 1: The plugin's name is SlipHover. It creates a hover overlay that is dependent on the direction in which the mouse enters the image area.
     $('#homecontent').sliphover({
         backgroundColor: 'rgba(200,30,33,.7)'
-
     });
+});
 
-    // Plugin # 2:
-    $('#deal').popup();
+$('.textillate').textillate({
+    autostart: true,
+    in: { effect: 'bounce', shuffle: false },
+    out: { effect: 'wobble', shuffle: false },
+    loop: true
 });
