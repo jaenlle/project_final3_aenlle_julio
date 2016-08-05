@@ -136,11 +136,11 @@ button:focus { /* Eliminates the blue "outline" that appears by browser default 
 
 /* =================================================================== header */
 
-div#logo {
+#logo {
     background: #4f7161 url("../img/header_background.jpg") repeat;
 }
 
-div#logo img {
+#logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -250,27 +250,27 @@ footer a:hover {
 
 }
 
-div.social-container {
+.social-container {
     max-width: 400px;
     margin: 40px auto 15px;
 }
 
-div.social-container li {
+.social-container li {
     display: inline;
     margin: 0 40px;
 }
 
-img.socialfoot {
+.socialfoot {
     max-width: 35px;
 }
 
 @media all and (max-width: 500px) {
-    div.social-container li {
+    .social-container li {
         display: block;
     }
 }
 
-div.footcontact {
+.footcontact {
     max-width: 700px;
     margin: 0 auto;
 }
@@ -279,17 +279,17 @@ div.footcontact {
     font-size: 1em;
 }
 
-div.footcontact p {
+.footcontact p {
     font-family: 'Bitter', serif;
     border-left: 2px solid white;
 }
 
-div.footcontact p.noline {
+.footcontact p.noline {
     border-left: none;
 }
 
 @media all and (max-width: 800px) {
-    div.footcontact p {
+    .footcontact p {
         border-left: none;
     }
 
@@ -297,7 +297,7 @@ div.footcontact p.noline {
 
 /* ================================================================= homepage */
 
-div.content-container {
+.content-container {
     text-align: center;
 }
 
@@ -350,12 +350,12 @@ div.content-container {
 
 /* ===================================================================== menu */
 
-article.menu {
+.menu {
     text-align: left;
     margin: 40px 0 40px;
 }
 
-article.menu img {
+.menu img {
     height: 200px;
     width: 300px;
     -webkit-border-radius: 10px;
@@ -364,13 +364,13 @@ article.menu img {
     float: left;
 }
 
-section.menu-item {
+.menu-item {
     height: 200px;
     margin-top: 60px;
     clear: both;
 }
 
-div.food-info {
+.food-info {
     float: left;
     max-width: 500px;
     text-align: justify;
@@ -378,64 +378,64 @@ div.food-info {
 }
 
 @media all and (max-width: 500px) {
-    article.menu {
+    .menu {
         clear: both;
         padding-top: 40px;
     }
 
-    div.food-info {
+    .food-info {
         margin-left: 0;
     }
 }
 
 
 @media all and (max-width: 800px) {
-    article.menu {
+    .menu {
         clear: both;
         padding-top: 40px;
     }
 
-    div.food-info {
+    .food-info {
         margin-left: 0;
     }
 }
 
 /* =============================================================== gift cards */
 
-div.content-container ul {
+.content-container ul {
     list-style: none;
     padding-left: 0;
 }
 
-div.content-container li {
+.content-container li {
     display: inline;
     text-size: 2em;
     margin: 0 20px;
 }
 
-div.content-container a {
+.content-container a {
     text-decoration: none;
     color: #c81e21;
     font-size: 1.6em;
 }
 
-div.content-container a:hover {
+.content-container a:hover {
     text-decoration: none;
     color: #66c999;
 }
 
 @media all and (max-width: 500px) {
-    div.content-container a {
+    .content-container a {
         font-size: 1.2em;
     }
 }
 
 /* -------------------------------------------------------------------- cards */
 
-div#card10,
-div#card25,
-div#card50,
-div#card100 {
+#card10,
+#card25,
+#card50,
+#card100 {
     height: 200px;
     width: 300px;
     margin: 0 auto;
@@ -447,10 +447,10 @@ div#card100 {
     box-shadow: 6px 6px rgba(0, 0, 0, 0.2);
 }
 
-div#card10 h2,
-div#card25 h2,
-div#card50 h2,
-div#card100 h2 {
+#card10 h2,
+#card25 h2,
+#card50 h2,
+#card100 h2 {
     color: #c81e21;
     text-align: right;
     text-shadow: 2px 2px white;
@@ -461,27 +461,27 @@ div#card100 h2 {
 
 }
 
-div#card10 img,
-div#card25 img,
-div#card50 img,
-div#card100 img {
+#card10 img,
+#card25 img,
+#card50 img,
+#card100 img {
     width: 65px;
     float: left;
 }
 
-div#card10 {
+#card10 {
     background-image: url("http://julioaenlle.net/project_final3_aenlle_julio/img/cards/card10.jpg");
 }
 
-div#card25 {
+#card25 {
     background-image: url("http://julioaenlle.net/project_final3_aenlle_julio/img/cards/card25.jpg");
 }
 
-div#card50 {
+#card50 {
     background-image: url("http://julioaenlle.net/project_final3_aenlle_julio/img/cards/card50.jpg");
 }
 
-div#card100 {
+#card100 {
     background-image: url("http://julioaenlle.net/project_final3_aenlle_julio/img/cards/card100.jpg");
 }
 
@@ -491,31 +491,31 @@ div#card100 {
 
 /* ================================================================= location */
 
-article.locationmain {
+.locationmain {
     max-width: 700px;
     margin: 0 auto;
 }
 
-section.location {
+.location {
     width: 233px;
     text-align: left;
     float: left;
 }
 
-section.location h2 {
+.location h2 {
     margin-top: 0;
 }
 
-section.location img {
+.location img {
     width: 45px;
     margin: 0 10px;
 }
 
-section.location ul {
+.location ul {
     list-style: none;
 }
 
-section.location li {
+.location li {
     display: inline;
 }
 
@@ -530,11 +530,11 @@ section.location li {
 }
 
 @media all and (max-width: 500px) {
-    article.locationmain {
+    .locationmain {
         margin: 0 60px;
     }
 
-    section.location li {
+    .location li {
         display: inline;
     }
 
