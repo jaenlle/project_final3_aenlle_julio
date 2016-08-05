@@ -37,3 +37,7 @@ I also used the jQuery hover effect I had previously learned about [here](http:/
 * [Unique Pages, Unique CSS Files](https://css-tricks.com/unique-pages-unique-css-files/) & [One, Two, or Three](https://css-tricks.com/one-two-three/)- Interesting reads about when to use multiple files for styling
 
 * [EventTarget.removeEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener) - Read to learn how to stop an event listener after one event (Thanks for tip!)
+
+### Comments
+
+I created a separate javascript file for each page to eliminate the console errors but there are still some that appear that I can't pinpoint. 
