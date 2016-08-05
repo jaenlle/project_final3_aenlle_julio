@@ -307,7 +307,7 @@ p.hours {
 }
 
 #homeh1 h2 {
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 /* -------------------------------------------------------------- home images */
@@ -324,13 +324,13 @@ p.hours {
     text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 600px) {
     .sliphover-container {
         font-size: 2em;
     }
 
     #homecontent img {
-        max-width: 500px;
+        max-width: 450px;
     }
 }
 
@@ -340,12 +340,11 @@ p.hours {
         text-align: center;
     }
 
-    .hcleft {
+    @media all and (min-width: 1000px) {
+        .hcleft {
         float: left;
     }
-
 }
-*/
 
 /* ===================================================================== menu */
 
