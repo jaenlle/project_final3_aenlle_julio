@@ -185,8 +185,7 @@ nav a:hover {
 /* makes nav buttons bunch up when window is at minimum width set */
 @media all and (min-width: 500px) {
     nav li {
-        display: inline-block;
-        width: 50%;
+        display: block;
     }
 }
 
@@ -342,7 +341,8 @@ p.hours {
 
     @media all and (min-width: 1000px) {
         .hcleft {
-        float: left;
+            float: left;
+        }
     }
 }
 
