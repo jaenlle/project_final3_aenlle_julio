@@ -16,19 +16,19 @@ $(document).ready(function () {
     $('.twitter').hover(function () { //creates hover state for the footer twitter icon
         $(this).attr('src', 'http://www.julioaenlle.net/project_final3_aenlle_julio/img/social/twitter_green.png');
     }, function () {
-        $(this).attr('src', '/img/social/twitter_white.png');
+        $(this).attr('src', 'http://www.julioaenlle.net/project_final3_aenlle_julio/img/social/twitter_white.png');
     });
 
     $('.facebook').hover(function () { //creates hover state for the footer twitter icon
         $(this).attr('src', 'http://www.julioaenlle.net/project_final3_aenlle_julio/img/social/fb_green.png');
     }, function () {
-        $(this).attr('src', '/img/social/fb_white.png');
+        $(this).attr('src', 'http://www.julioaenlle.net/project_final3_aenlle_julio/img/social/fb_white.png');
     });
 
     $('.instagram').hover(function () { //creates hover state for the footer twitter icon
         $(this).attr('src', 'http://www.julioaenlle.net/project_final3_aenlle_julio/img/social/ig_green.png');
     }, function () {
-        $(this).attr('src', '/img/social/ig_white.png');
+        $(this).attr('src', 'http://www.julioaenlle.net/project_final3_aenlle_julio/img/social/ig_white.png');
     });
 
     // Plugin # 1: SlipHover is a jQuery that provides an image hover effect that cover images with an opaque layer and text. I used it on the homepage images.
