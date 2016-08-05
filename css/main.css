@@ -496,6 +496,7 @@ footer a:hover {
 
 .location {
     padding: 10px;
+    margin: 0 25px;
     text-align: center;
     float: left;
 }
@@ -545,7 +546,7 @@ footer a:hover {
     }
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 900px) {
     .location {
         width: 350px;
         margin-left: 85px;
