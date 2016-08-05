@@ -37,42 +37,23 @@ $(document).ready(function () {
         $(this).attr('src', 'http://www.julioaenlle.net/project_final3_aenlle_julio/img/social/ig_red.png');
     });
 
+    //
+    $('#butt1').click(function () {
+        $(this).append("<p>Congrats! Since we're so glad you've decided to order this gift card we're giving you a free side of queso!</p>").off('click');
+    });
 
-    $(addQueso);
+    $('#butt2').click(function () {
+        $(this).append("<p>Congrats! Since we're so glad you've decided to order this gift card we're lowering the price to only $20!").off('click');
+    });
 
-    function addQueso() {
-        var addQ = document.createElement('p');
-        var addQText = document.createTextNode('Order this gift card and receive a free side of queso!');
-        addQ.appendChild(addQText);
-        $('#queso').append(addQ);
-    }
+    $('#butt3').click(function () {
+        $(this).append("<p>Congrats! Since we're so glad you've decided to order this gift card we're lowering the price to only $40!").off('click');
+    });
 
-    $(addDiscount5);
+    $('#butt4').click(function () {
+        $(this).append("<p>Congrats! Since we're so glad you've decided to order this gift card we're lowering the price to only $85!").off('click');
+    });
 
-    function addDiscount5() {
-        var deal10 = document.createElement('p');
-        var deal10Text = document.createTextNode('Special limited time offer! Get your $25 giftcard for only $20!');
-        deal10.appendChild(deal10Text);
-        $('#5off').append(deal10);
-    }
-
-    $(addDiscount10);
-
-    function addDiscount10() {
-        var deal25 = document.createElement('p');
-        var deal25Text = document.createTextNode('Special limited time offer! Get your $50 giftcard for only $40!');
-        deal25.appendChild(deal25Text);
-        $('#10off').append(deal25);
-    }
-
-    $(addDiscount15);
-
-    function addDiscount15() {
-        var deal15 = document.createElement('p');
-        var deal15Text = document.createTextNode('Special limited time offer! Get your $100 giftcard for only $85!');
-        deal15.appendChild(deal15Text);
-        $('#15off').append(deal15);
-    }
 });
 
 
