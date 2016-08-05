@@ -37,7 +37,7 @@ $(document).ready(function () {
         $(this).attr('src', 'http://www.julioaenlle.net/project_final3_aenlle_julio/img/social/ig_red.png');
     });
 
-    //
+    //Custom jQuery click effect is used to notify potential gift card purchasers that they will get a treat or a discount if they buy a card. The click function adds text when the user clicks on the button and .off('click') limits the action to just on click.
     $('#butt1').click(function () {
         $(this).append("<p>Congrats! Since we're so glad you've decided to order this gift card we're giving you a free side of queso!</p>").off('click');
     });
