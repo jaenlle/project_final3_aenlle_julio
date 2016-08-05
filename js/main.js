@@ -54,12 +54,3 @@ $(document).ready(function () {
         backgroundColor: 'rgba(200,30,33,.7)'
     });
 });
-
-
-// Plugin # 2: Textillate is a combination of lettering.js and automate.css. It uses lettering.js to split words or blocks of text into separate spans for each letter, and then uses animate.css to animate each letter (automate.css can only animate whole words). I applied it to the h1 tags for the menu, giftcard, and location pages.
-$('.textillate').textillate({
-    autostart: true,
-    in: { effect: 'bounce', shuffle: false },
-    out: { effect: 'wobble', shuffle: false },
-    loop: true
-});
