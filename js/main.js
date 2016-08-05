@@ -49,7 +49,7 @@ $(document).ready(function () {
 
     homeh1.addEventListener('mouseenter', addh2);
 
-    // Plugin # 1: SlipHover is a jQuery that provides an image hover effect that cover images with an opaque layer and text. I used it on the homepage images.
+    // Plugin # 1: SlipHover is a jQuery that provides an image hover effect that cover images with an opaque layer and text. I used it on the homepage images. It uses the description attribute to add text to the hover.
     $('#homecontent').sliphover({
         backgroundColor: 'rgba(200,30,33,.7)'
     });
