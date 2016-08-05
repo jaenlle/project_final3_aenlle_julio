@@ -294,6 +294,12 @@ footer a:hover {
     font-family: 'Bitter', serif;
 }
 
+p.hours {
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
 /* ================================================================= homepage */
 
 .content-container {
