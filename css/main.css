@@ -246,8 +246,7 @@ footer a:hover {
 
 @media all and (min-width: 500px) {
     footer li {
-        display: inline-block;
-        width: 50%;
+        display: block;
     }
 }
 
