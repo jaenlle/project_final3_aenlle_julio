@@ -193,7 +193,7 @@ nav a:hover {
 /* makes nav buttons space themselves out when window is at minimum width set */
 @media all and (min-width: 800px) {
     nav li {
-        display: inline-block;;
+        display: inline-block;
         width: calc(100% / 3);
     }
 
@@ -309,6 +309,7 @@ footer a:hover {
 #homecontent img {
     max-width: 500px;
     margin: 0;
+    display: block;
 }
 
 .sliphover-container {
