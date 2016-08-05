@@ -403,9 +403,10 @@ p.hours {
 }
 
 .content-container a {
-    text-decoration: none;
     color: #c81e21;
-    font-size: 1.6em;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
 }
 
 .content-container a:hover {
@@ -413,10 +414,9 @@ p.hours {
     color: #66c999;
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 500px) {
     .content-container a {
-        font-size: 1.2em;
-        margin: 10px 0;
+        font-size: 1.6em;
     }
 }
 
